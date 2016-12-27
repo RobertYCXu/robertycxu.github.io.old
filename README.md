@@ -1,19 +1,6 @@
-# SHOOTER_PONG
-A classic game with a twist.
+# robxu.me
+My personal site (currently under construction)!
 
-Move cursor to control your paddle. First to 10 points wins the game - but be careful! Computer also shoots bullets - if your paddle is destroyed, you LOSE. Press p to pause.
+Made with <3 and javascript.
 
-NOTE: Since most browsers don't support cross origin resource resource sharing, you need to setup a local webserver (e.g. localhost:8000) in directory of pong.html in order for the game to function in the browser.
-
-## **General Game Layout**
-
-![Alt text](/Screenshots/screenshot1.png?raw=true "Game Layout")
-
-
-## **You Lost Layout**
-
-![Alt text](/Screenshots/screenshot2.png?raw=true "You Lost Layout")
-
-## **You Won Layout**
-
-![Alt text](/Screenshots/screenshot3.png?raw=true "You Won Layout")
+© 2016 RobertXu
