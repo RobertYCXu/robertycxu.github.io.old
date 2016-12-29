@@ -5,29 +5,45 @@
 	<script type="text/javascript" src="../assets/js/lib/jquery-3.1.0.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
 	<script type="text/javascript" src="../assets/js/lib/paper-full.js"></script>
-	<link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
+	<script type="text/paperscript" src = "assets/js/aboutjs.js" canvas="canvas"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/aboutStyles.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 	<link rel="shortcut icon"  href="../logoweb.png">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.0/howler.core.min.js"></script>
 </head>
 <body>
+<canvas id = "canvas" resize="true"></canvas>
 <div id="stripe">
 	<div class="container">
 		<div class="row">
 			<span class="col-lg-8 col-md-8 col-sm-4"></span>
 			<span class = "col-lg-1 col-md-1 col-sm-2">
-				<h2 class ="button">Home</h2>
+				<h2 id="home" class ="button">Home</h2>
 			</span>
 			<span class = "col-lg-1 col-md-1 col-sm-2">
-				<h2 class ="button">About</h2>
+				<h2 id="about" class ="button">About</h2>
 			</span>
 			<span class = "col-lg-1 col-md-1 col-sm-2">
-				<h2 class ="button">Projects</h2>
+				<h2 id="projects" class ="button">Projects</h2>
 			</span>
 			<span class = "col-lg-1 col-md-1 col-sm-2">
-				<h2 class ="button">Resume</h2>
+				<h2 id="resume" class ="button">Resume</h2>
 			</span>
 		</div>
 	</div>
 </div>
+<div class="content">
+<h1 id="hello">Hello,</h1>
+<h1>I'm Robert!<span id="robby">(but most people call me Robby)</span></h1>
+<h3>
+	<p>I'm a first year Software Engineering student at Waterloo. I love music, ice skating, and the great outdoors! </p>
+<p></p>
+<p></p>
+
+</h3>
+<hr>
+
+</div>
+
 </body>
 </html>

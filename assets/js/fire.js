@@ -15,7 +15,7 @@ var mousePos2 = view.center / 4;
 var pathHeight = mousePos.y;
 var pathHeight2 = mousePos2.y;
 path.fillColor = 'red';
-path2.fillColor= "#ff6100";
+path2.fillColor= "orange";
 initializePath();
 initializePath2();
 
