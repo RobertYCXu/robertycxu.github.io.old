@@ -1,3 +1,5 @@
+
+
 var keyData = {
 	q: {
 		sound: new Howl({
@@ -170,6 +172,12 @@ var keyData = {
 	function onFrame(e){
 		for(var i = 0;i<circles.length;i++){
 			circles[i].fillColor.hue+=1;
-			circles[i].scale(.9);	
+			circles[i].scale(.95);	
 		}
+
 	}
+
+$("#home").on("click", function(){
+	window.location.href = "../index.html";
+})
+	

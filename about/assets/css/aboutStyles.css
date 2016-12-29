@@ -97,3 +97,9 @@ p:nth-of-type(1){
 	border-left: 5px solid grey;
 	padding-left: 7px;
 }
+
+#about{
+	font-size: 105%;
+	cursor: pointer;
+	color: black;
+}

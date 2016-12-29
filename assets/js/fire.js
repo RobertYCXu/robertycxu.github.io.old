@@ -3,6 +3,10 @@ $("#about").on("click", function(){
 	window.location.href = "../about/aboutIndex.html";
 })
 
+$("#title").on("click", function(){
+	window.location.href = "../about/aboutIndex.html";
+})
+
 
 
 

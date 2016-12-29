@@ -75,6 +75,9 @@ canvas{
 	color: white;
 }
 
+#home{
+	font-size: 105%;
+}
 .button:hover{
 	font-size: 105%;
 	cursor: pointer;
