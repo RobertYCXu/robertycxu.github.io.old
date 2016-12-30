@@ -7,6 +7,15 @@ $("#title").on("click", function(){
 	window.location.href = "../about/aboutIndex.html";
 })
 
+$(".github").on("click", function(){
+	window.open("https://github.com/RobertYCXu");
+})
+
+$(".linkedin").on("click", function(){
+	window.open("https://ca.linkedin.com/in/robert-xu-35476b125");
+})
+
+
 
 
 
