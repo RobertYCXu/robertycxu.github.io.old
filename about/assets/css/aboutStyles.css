@@ -109,7 +109,8 @@ p:nth-of-type(1){
 
 #first{
 	margin-left: 18px;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
+	margin-top:10px;
 }
 
 #second{
