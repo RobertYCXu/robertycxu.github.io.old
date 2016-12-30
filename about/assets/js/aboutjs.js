@@ -1,3 +1,14 @@
+$("#home").on("click", function(){
+	window.location.href = "../index.html";
+})
+
+$("#linkedin").on("click", function(){
+	window.open("https://ca.linkedin.com/in/robert-xu-35476b125");
+})
+
+$("#github").on("click", function(){
+	window.open("https://github.com/RobertYCXu");
+})
 
 
 var keyData = {
@@ -177,7 +188,5 @@ var keyData = {
 
 	}
 
-$("#home").on("click", function(){
-	window.location.href = "../index.html";
-})
+
 	
