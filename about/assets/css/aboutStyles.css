@@ -73,10 +73,13 @@ h1{
 #hello{
 	font-size: 550%;
 	letter-spacing: 1px;
-	padding-bottom: 10px;
+	padding:0px;
+	margin-left: 0px;
+	margin-top:0px;
+	padding-top:0px;
 }
 #robby{
-	font-size: 50%;
+	font-size: 150%;
 	padding-left: 7px;
 
 }
@@ -112,4 +115,15 @@ p:nth-of-type(1){
 #second{
 	font-size: 90%;
 	border-right: 5px solid grey; ;
+}
+
+img{
+	height:100px;
+	width:auto;
+	margin-top:10px;
+	border-radius: 10px;
+}
+
+#sec{
+	font-size:50%;
 }

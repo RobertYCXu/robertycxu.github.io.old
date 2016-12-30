@@ -162,7 +162,7 @@ var keyData = {
 
 	function onKeyDown(event) {
 		if(keyData[event.key]){
-			var circle = new Path.Circle(new Point(view.size.width,view.size.height)*Point.random(), 500);
+			var circle = new Path.Circle(new Point(view.size.width,view.size.height)*Point.random(), 750);
 			circle.fillColor = keyData[event.key].color;
 			keyData[event.key].sound.play();
 
