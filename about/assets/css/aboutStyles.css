@@ -128,3 +128,9 @@ img{
 #sec{
 	font-size:50%;
 }
+
+.info{
+	padding-top:10px;
+	padding-left:10px;
+	font-family: 'Montserrat', sans-serif;
+}
