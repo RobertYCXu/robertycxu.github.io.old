@@ -77,7 +77,7 @@ h1{
 }
 #robby{
 	font-size: 50%;
-	padding-left: 5px;
+	padding-left: 7px;
 
 }
 }
@@ -88,7 +88,7 @@ h1{
 	font-weight: 600;
 }
 hr { 
-  border-top: 1px solid #8c8b8b;
+  border-top: 4px solid #8c8b8b;
 }
 p{
 	color: #545556;
@@ -102,4 +102,14 @@ p:nth-of-type(1){
 	font-size: 105%;
 	cursor: pointer;
 	color: black;
+}
+
+#first{
+	margin-left: 18px;
+	margin-bottom: 20px;
+}
+
+#second{
+	font-size: 90%;
+	border-right: 5px solid grey; ;
 }

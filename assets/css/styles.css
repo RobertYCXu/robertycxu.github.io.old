@@ -36,7 +36,12 @@ body, html{
 	border-radius: 50px;
 	position: relative;
 	height: 50%;
-	margin: 20%;
+	margin-top:20%;
+	margin-left:20%;
+	margin-right: 20%;
+	margin-bottom: 175px;
+	padding-bottom: 0px;
+	
 
 
 }
@@ -67,6 +72,7 @@ canvas{
 	
 	-webkit-transition: background 0.5s;
 	-moz-transition: background 0.5s;
+	margin:0px;
 }
 
 
@@ -97,7 +103,7 @@ img{
 
 .blinking-cursor {
   font-weight: 100;
-  font-size: 30px;
+  font-size: 33px;
   z-index: 2;
   position: absolute;
   padding-left: 3px;
@@ -154,17 +160,22 @@ img{
   }
 }
 
+
+
+
 #title{
 	padding-top: 300px;
 	font-size: 250%;
 	font-weight: 400;
 	letter-spacing: 8px;
 	color: white;
+	padding-bottom: 0;
 }
 
 #title:hover{
 	font-size: 260%;
 	cursor: pointer;
+	color: black;
 }
 
 #key{
@@ -173,4 +184,38 @@ img{
 	letter-spacing: 5px;
 	text-align: center;
 
+}
+
+i{
+	color: white;
+	margin-top: 20px;
+	text-align: center;
+	padding-top:0px;
+	font-size: 225%;
+	
+}
+
+.github{
+	padding-left:37%;
+}
+
+.linkedin{
+	padding-right: 37%;
+}
+i:hover{
+	font-size: 325%;
+	color: black;
+	cursor: pointer;
+	transition: 0.5s;
+	-webkit-transition:  0.5s;
+	-moz-transition: 0.5s;
+}
+
+#copyright{
+	color: white;
+	text-align: center;
+	font-size: 100%;
+	margin-top:15%;
+	padding-left:20px;
+	font-style: italic;
 }
