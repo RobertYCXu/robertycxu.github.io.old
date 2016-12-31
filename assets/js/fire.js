@@ -7,6 +7,10 @@ $("#title").on("click", function(){
 	window.location.href = "../about/aboutIndex.html";
 })
 
+$("#projects").on("click", function(){
+	window.location.href = "../projects/projectsIndex.html";
+})
+
 $(".github").on("click", function(){
 	window.open("https://github.com/RobertYCXu");
 })

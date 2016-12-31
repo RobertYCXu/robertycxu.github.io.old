@@ -2,6 +2,10 @@ $("#home").on("click", function(){
 	window.location.href = "../index.html";
 })
 
+$("#projects").on("click", function(){
+	window.location.href = "../projects/projectsIndex.html";
+})
+
 $("#linkedin").on("click", function(){
 	window.open("https://ca.linkedin.com/in/robert-xu-35476b125");
 })
