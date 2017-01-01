@@ -76,7 +76,16 @@ $(document).ready(function() {
     })
 
     $("#thoughts").on("click", function(){
-      window.open("www.internetthoughts.net");
+      window.open("http://www.internetthoughts.net");
     })
+
+    $("#her").on("click", function(){
+      window.open("https://github.com/RobertYCXu/employHer");
+    })
+
+    $("#pong").on("click", function(){
+      window.open("http://robxu.me/SHOOTER_PONG/pong.html");
+    })
+
 
 });
