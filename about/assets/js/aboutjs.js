@@ -1,18 +1,27 @@
-$("#home").on("click", function(){
+$(document).ready(function(){
+	$("#home").on("click", function(){
 	window.location.href = "../index.html";
-})
+	})
 
-$("#projects").on("click", function(){
-	window.location.href = "../projects/projectsIndex.html";
-})
+	$("#projects").on("click", function(){
+		window.location.href = "../projects/projectsIndex.html";
+	})
 
-$("#linkedin").on("click", function(){
-	window.open("https://ca.linkedin.com/in/robert-xu-35476b125");
-})
+	$("#linkedin").on("click", function(){
+		window.open("https://ca.linkedin.com/in/robert-xu-35476b125");
+	})
 
-$("#github").on("click", function(){
-	window.open("https://github.com/RobertYCXu");
-})
+	$("#github").on("click", function(){
+		window.open("https://github.com/RobertYCXu");
+	})
+
+	$("#resume").on("click", function(){
+	      window.open("../assets/resume5.pdf");
+	 })
+});
+
+
+
 
 
 var keyData = {

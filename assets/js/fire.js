@@ -1,26 +1,29 @@
-
-$("#about").on("click", function(){
+$(document).ready(function(){
+	$("#about").on("click", function(){
 	window.location.href = "../about/aboutIndex.html";
-})
+	})
 
-$("#title").on("click", function(){
-	window.location.href = "../about/aboutIndex.html";
-})
+	$("#title").on("click", function(){
+		window.location.href = "../about/aboutIndex.html";
+	})
 
-$("#projects").on("click", function(){
-	window.location.href = "../projects/projectsIndex.html";
-})
+	$("#projects").on("click", function(){
+		window.location.href = "../projects/projectsIndex.html";
+	})
 
-$(".github").on("click", function(){
-	window.open("https://github.com/RobertYCXu");
-})
+	$(".github").on("click", function(){
+		window.open("https://github.com/RobertYCXu");
+	})
 
-$(".linkedin").on("click", function(){
-	window.open("https://ca.linkedin.com/in/robert-xu-35476b125");
-})
+	$(".linkedin").on("click", function(){
+		window.open("https://ca.linkedin.com/in/robert-xu-35476b125");
+	})
 
+	$("#resume").on("click", function(){
+	      window.open("../assets/resume5.pdf");
+	 })
 
-
+});
 
 
 var width, height, center, width2, height2, center2;
