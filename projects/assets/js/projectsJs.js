@@ -87,5 +87,21 @@ $(document).ready(function() {
       window.open("http://robxu.me/SHOOTER_PONG/pong.html");
     })
 
+    $("#color").on("click", function(){
+      window.open("http://robxu.me/RGB-Color-Guesser/colorGame.html");
+    })
+
+    $("#pat").on("click", function(){
+      window.open("http://robxu.me/PatatapClone/circles.html");
+    })
+
+    $("#todo").on("click", function(){
+      window.open("http://robxu.me/TodoListProject/");
+    })
+
+    $("#resume").on("click", function(){
+      window.open("../assets/resume5.pdf");
+    })
+
 
 });
