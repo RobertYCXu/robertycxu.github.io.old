@@ -20,7 +20,7 @@ $(document).ready(function(){
 	})
 
 	$("#resume").on("click", function(){
-	      window.open("../assets/resume5.pdf");
+	      window.open("../assets/RobertXuResume.pdf");
 	 })
 
 });
