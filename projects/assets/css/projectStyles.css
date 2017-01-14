@@ -5,20 +5,19 @@
 body, html{
 	 background-color: #000000;
   	 
-   	height: 100%
+   	height: 100%;
 	font-family: 'Montserrat', sans-serif;
 	
  }
 
-
-
 #gradient
 {
   width: 100%;
-  height: 120%;
+  height: 200%;
   top:0;
   position: absolute;
   z-index: 0;
+  display: block;
   
 }
 
@@ -60,6 +59,7 @@ h2{
 
 img{
 	width:100%;
+	height: auto;
 	border-radius: 20px;
 	margin-top:20px;
 }
