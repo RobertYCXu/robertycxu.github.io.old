@@ -25,6 +25,12 @@ $(document).ready(function(){
 
 });
 
+var canvas = document.querySelector("canvas");
+fitToContainer(canvas);
+function fitToContainer(canvas){
+	if(canvas.width<window.innerWidth) canvas.width = window.innerWidth;
+	if(canvas.height<window.innerHeight) canvas.height = window.innerHeight;
+}
 
 var width, height, center, width2, height2, center2;
 var points = 8;
