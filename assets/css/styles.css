@@ -99,8 +99,14 @@ canvas{
 	padding-bottom: 0;
 	text-align: center;
 	margin-top: 0px;
+	left: 31%;
 	position: absolute;
-	left:31%;
+	
+}
+#titleholder{
+	
+	width: 100%;
+	position: relative;
 }
 
 #title:hover{
