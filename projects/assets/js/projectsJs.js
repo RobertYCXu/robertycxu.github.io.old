@@ -102,6 +102,9 @@ $(document).ready(function() {
     $("#resume").on("click", function(){
       window.open("../assets/RobertXuResume.pdf");
     })
-
-
+    
+    $("#speakr").on("click", function(){
+      window.open("https://github.com/RobertYCXu/speakr");
+      console.log("helo");
+    })
 });
