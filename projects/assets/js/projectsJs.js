@@ -107,4 +107,8 @@ $(document).ready(function() {
       window.open("https://github.com/RobertYCXu/speakr");
       console.log("helo");
     })
+    $("#meta").on("click", function(){
+      window.open("https://metadev.jewlr.com");
+      console.log("helo");
+    })
 });
