@@ -111,4 +111,8 @@ $(document).ready(function() {
       window.open("https://metadev.jewlr.com");
       console.log("helo");
     })
+    $("#dashboard").on("click", function(){
+      window.open("https://tranquil-dusk-60343.herokuapp.com/");
+      console.log("helo");
+    })
 });
