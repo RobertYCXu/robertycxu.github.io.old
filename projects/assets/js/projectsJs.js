@@ -112,7 +112,7 @@ $(document).ready(function() {
       console.log("helo");
     })
     $("#dashboard").on("click", function(){
-      window.open("https://tranquil-dusk-60343.herokuapp.com/");
+      window.open("http://www.dashbo.me");
       console.log("helo");
     })
 });
